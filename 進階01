@@ -1,0 +1,23 @@
+＃包括 < stdio.h中>
+＃包括 < stdlib.h中>
+
+int  main（）
+{
+	char l;
+	for（l = 65 ; l <= 90 ; l ++）
+	
+	{
+		printf（“％c ”，l）;
+	}
+	
+	printf（“ \ n ”）;
+	for（l = 97 ; l <= 122 ; l ++）
+	
+	{
+		printf（“％c ”，l）;
+	}
+	
+	printf（“ \ n ”）;
+	系統（“暫停”）;
+	返回 0 ;
+}
